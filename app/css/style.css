@@ -1,0 +1,89 @@
+@import "_variables.css";
+@import "_globals.css";
+
+.logo_slice {
+    margin-top: 78px;
+    margin-left: 78px;
+  }
+
+.backimage{
+    background-image: url("bg-mobile.svg");
+    height: 800px;
+    background-repeat:no-repeat;
+    background-position: left top;
+    background-color: var(--Violet);
+    background-size: 100%;
+  
+}
+
+.ill{
+    margin-top:132px;
+    margin-left:78px;
+    margin-right:78px;
+    width: 597px;
+
+}
+  
+.text-color1{
+    color:white;
+    font-size:45px;
+    font-weight: bold;
+    align-content: center;
+    margin-top:0px;
+    margin-bottom:0px;
+    text-align: center;
+}
+
+.text-color2{
+    color:white;
+    font-size:45px;
+    font-weight: bold;
+    align-content: center;
+    margin-top:19px;
+    margin-bottom:0px;
+    text-align: center;
+}
+
+.text-color3{
+    color:white;
+    font-size:31px;
+    font-weight: regular;
+    align-content: center;
+    margin-bottom:0px;
+    width: 597px;
+    height: 229px;
+    text-align: center;
+    margin-left:78px;
+    margin-right:78px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.button-style{
+    background-color: white;
+    text-align: center;
+    width: 401px;
+    height:83px;
+    font-size: 26px;
+    color: var(--Violet);
+    border-radius: 40px;
+    align-content: center;
+    margin-left: 175px;
+    margin-right: 175px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: transparent;
+    margin-top: 126px;
+    margin-left: 270px;
+    margin-right: 270px;
+    justify-content: center;
+    width: 227px;
+  }
+  
+  .flex-container > div {
+    margin: 20px;
+  }
+
+  
