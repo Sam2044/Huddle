@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -14,6 +14,11 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    button:hover {
+      background-color: var(--Magenta);
+      color:antiquewhite;
+    }
+    
   </style>
 </head>
 <body>
@@ -53,13 +58,19 @@
 
   <div class="flex-container">
     <div>
-      <img src="images/Facebook.png"/>
+      <a href="https://www.facebook.com"></a>
+        <img id=fb src="images/Facebook.png"/>
+      </a>
     </div>
     <div>
-      <img src="images/Twitter.png"/>
+      <a href="https://www.twitter.com">
+        <img id=twit  src="images/Twitter.png"/>
+      </a>
     </div>
     <div>
-      <img src="images/Instagram.png"/>
+      <a href="https://www.instagram.com">
+        <img id=insta  src="images/Instagram.png"/>
+      </a>
     </div>  
   </div>
 
