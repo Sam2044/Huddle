@@ -98,7 +98,7 @@
     margin: 20px;
   }
 
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 1000px) {
     .backimage{
         background-image: url("bg-desktop.svg");
         /* height: 800px; */
@@ -196,7 +196,7 @@
     .flex-container {
         display: flex;
         position: absolute;
-        bottom: 39px;
+        bottom: 20px;
         right:80px;
         background-color: transparent;
         margin-top: 0px;
